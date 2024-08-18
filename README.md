@@ -3,6 +3,7 @@
 PROJECT-ROOT/
 
 ├── src/
+│
 │   ├── config/         
 │   ├── controllers/    
 │   ├── middleware/     
