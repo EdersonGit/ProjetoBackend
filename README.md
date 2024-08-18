@@ -24,18 +24,18 @@ Endpoint: POST /v1/user/token
 Descrição: Gera um token JWT para autenticação.
 Headers:
 Content-Type: application/json
-Corpo da Requisição:
-json
-Copiar código
+Corpo da Requisição:json
+
+Copiar código:
 {
   "email": "user@mail.com",
   "password": "123@123"
 }
 Resposta de Sucesso:
 Status: 200 OK
-Body:
-json
-Copiar código
+Body: json
+
+Copiar código:
 {
   "token": "jwt_token_aqui"
 }
@@ -53,13 +53,12 @@ fields: Campos específicos a serem retornados. (e.g., name,slug)
 use_in_menu: Filtra categorias que podem aparecer no menu. (true ou false)
 Resposta de Sucesso:
 Status: 200 OK
-Body:
-json
+Body: json
 Copiar código
 {
   "categories": [
-    {
-      "id": 1,
+{
+"id": 1,
       "name": "Categoria 1",
       "slug": "categoria-1",
       "use_in_menu": true
@@ -72,7 +71,7 @@ Copiar código
 }
 Códigos de Status:
 200 OK: Quando a lista é retornada com sucesso.
-2. Obter Categoria por ID
+3. Obter Categoria por ID
 Endpoint: GET /v1/category/:id
 Descrição: Retorna os detalhes de uma categoria específica.
 Parâmetros de Rota:
@@ -91,7 +90,7 @@ Copiar código
 Códigos de Status:
 200 OK: Quando a categoria é encontrada.
 404 Not Found: Quando a categoria não é encontrada.
-3. Criar Categoria
+4. Criar Categoria
 Endpoint: POST /v1/category
 Descrição: Cria uma nova categoria.
 Headers:
@@ -119,7 +118,7 @@ Copiar código
 Códigos de Status:
 201 Created: Quando a categoria é criada com sucesso.
 400 Bad Request: Quando há erros de validação no corpo da requisição.
-4. Atualizar Categoria
+5. Atualizar Categoria
 Endpoint: PUT /v1/category/:id
 Descrição: Atualiza uma categoria existente.
 Headers:
@@ -141,7 +140,7 @@ Códigos de Status:
 204 No Content: Quando a categoria é atualizada com sucesso.
 400 Bad Request: Quando há erros de validação no corpo da requisição.
 404 Not Found: Quando a categoria não é encontrada.
-5. Deletar Categoria
+6. Deletar Categoria
 Endpoint: DELETE /v1/category/:id
 Descrição: Remove uma categoria específica.
 Headers:
