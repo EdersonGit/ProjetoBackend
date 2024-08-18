@@ -1,6 +1,7 @@
 ## Estrutura do Projeto
 
 PROJECT-ROOT/
+
 ├── src/
 │   ├── config/         
 │   ├── controllers/    
