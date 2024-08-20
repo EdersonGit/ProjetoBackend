@@ -1,6 +1,6 @@
 # Geração Tech - Projeto Back-end
 
-Este é o projeto back-end desenvolvido como parte do curso **Desenvolvedor Web Fullstack** do projeto **Geração Tech** da Digital College.
+Este é o projeto back-end desenvolvido como parte do curso **Desenvolvedor Web Fullstack** do projeto **Geração Tech** da **Digital College**.
 
 ## Tecnologias Utilizadas
 
@@ -44,20 +44,17 @@ Este é o projeto back-end desenvolvido como parte do curso **Desenvolvedor Web 
 2. Navegue até o diretório do projeto:
 
     ```bash
-    cd project-root
+    cd ProjetoBackend
     ```
 
 3. Configuração do Banco de Dados:
 
 Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQL e configure as credenciais no arquivo .env:
 
-    ```bash
     DB_HOST=localhost
     DB_USER=seu_usuario
     DB_PASSWORD=sua_senha
     DB_NAME=nome_do_banco_de_dados
-    ```
-
 
 ## Endpoints da API
 
