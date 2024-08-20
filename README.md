@@ -58,10 +58,10 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
 
 ## Endpoints da API
 
-### Endpoints de Usuários
+## endpoints de usuários
 
 <details>
-  <summary> Criar Usuário</summary>
+  <summary><b>Criar Usuário</b></summary>
 
   - **POST** `/v1/user`
     - **Headers**:
@@ -84,7 +84,7 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
 </details>
 
 <details>
-  <summary> Buscar Usuário por ID</summary>
+  <summary><b>Buscar Usuário por ID</b></summary>
 
 - **GET** `/v1/user/:id`
   - **Response Body**:
@@ -99,10 +99,10 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
   - **Response Status Code**:
     - `200 OK`: Requisição bem-sucedida.
     - `404 Not Found`: Usuário não encontrado.
-<details>
+</details>
 
 <details>
-  <summary> Atualizar Usuário</summary>
+  <summary><b>Atualizar Usuário</b></summary>
 
 - **PUT** `/v1/user/:id`
   - **Headers**:
@@ -121,10 +121,10 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
     - `400 Bad Request`: Dados incorretos na requisição.
     - `401 Unauthorized`: Token de autorização não enviado ou incorreto.
     - `404 Not Found`: Usuário não encontrado.
-<details>
+</details>
 
 <details>
-  <summary> Deletar Usuário</summary>
+  <summary><b>Deletar Usuário</b></summary>
 
 - **DELETE** `/v1/user/:id`
   - **Headers**:
@@ -134,12 +134,12 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
     - `204 No Content`: Exclusão bem-sucedida, sem conteúdo de resposta.
     - `401 Unauthorized`: Token de autorização não enviado ou incorreto.
     - `404 Not Found`: Usuário não encontrado.
-<details>
+</details>
 
-### Endpoints de Categorias
+## Endpoints de Categorias
 
 <details>
-  <summary> Listar Categorias </summary>
+  <summary><b>Listar Categorias</b></summary>
 
 - **GET** `/v1/category/search`
   - **Query Params**:
@@ -178,10 +178,10 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
   - **Response Status Code**:
     - `200 OK`: Requisição bem-sucedida.
     - `400 Bad Request`: Dados incorretos na requisição.
-<details>
+</details>
 
 <details>
-  <summary> Buscar Categoria por ID </summary>
+  <summary><b>Buscar Categoria por ID</b></summary>
 
 - **GET** `/v1/category/:id`
   - **Response Body**:
@@ -196,10 +196,10 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
   - **Response Status Code**:
     - `200 OK`: Requisição bem-sucedida.
     - `404 Not Found`: Categoria não encontrada.
-<details>
+</details>
 
 <details>
-  <summary> Criar Categoria </summary>
+  <summary><b>Criar Categoria</b></summary>
 
 - **POST** `/v1/category`
   - **Headers**:
@@ -217,10 +217,10 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
     - `201 Created`: Cadastro bem-sucedido.
     - `400 Bad Request`: Dados incorretos na requisição.
     - `401 Unauthorized`: Token de autorização não enviado ou incorreto.
-<details>
+</details>
 
 <details>
-  <summary> Atualizar Categoria </summary>
+  <summary><b>Atualizar Categoria</b></summary>
 
 - **PUT** `/v1/category/:id`
   - **Headers**:
@@ -239,10 +239,10 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
     - `400 Bad Request`: Dados incorretos na requisição.
     - `401 Unauthorized`: Token de autorização não enviado ou incorreto.
     - `404 Not Found`: Categoria não encontrada.
-<details>
+</details>
 
 <details>
-  <summary> Deletar Categoria </summary>
+  <summary><b>Deletar Categoria</b></summary>
 
 - **DELETE** `/v1/category/:id`
   - **Headers**:
@@ -252,12 +252,12 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
     - `204 No Content`: Exclusão bem-sucedida, sem conteúdo de resposta.
     - `401 Unauthorized`: Token de autorização não enviado ou incorreto.
     - `404 Not Found`: Categoria não encontrada.
-<details>
+</details>
 
-### Endpoints de Produtos
+## Endpoints de Produtos
 
 <details>
-  <summary> Listar Produtos </summary>
+  <summary><b>Listar Produtos</b></summary>
 
 - **GET** `/v1/product/search`
   - **Query Params**:
@@ -318,10 +318,10 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
   - **Response Status Code**:
     - `200 OK`: Requisição bem-sucedida.
     - `400 Bad Request`: Dados incorretos na requisição.
-<details>
+</details>
 
 <details>
-  <summary> Buscar Produto por ID </summary>
+  <summary><b>Buscar Produto por ID</b></summary>
 
 - **GET** `/v1/product/:id`
   - **Response Body**:
@@ -367,10 +367,10 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
   - **Response Status Code**:
     - `200 OK`: Requisição bem-sucedida.
     - `404 Not Found`: Produto não encontrado.
-<details>
+</details>
 
 <details>
-  <summary> Criar Produto </summary>
+  <summary><b>Criar Produto</b></summary>
 
 - **POST** `/v1/product`
   - **Headers**:
@@ -422,10 +422,10 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
     - `201 Created`: Cadastro bem-sucedido.
     - `400 Bad Request`: Dados incorretos na requisição.
     - `401 Unauthorized`: Token de autorização não enviado ou incorreto.
-<details>
+</details>
 
 <details>
-  <summary> Atualizar Produto </summary>
+  <summary><b>Atualizar Produto</b></summary>
 
 - **PUT** `/v1/product/:id`
   - **Headers**:
@@ -484,10 +484,10 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
     - `400 Bad Request`: Dados incorretos na requisição.
     - `401 Unauthorized`: Token de autorização não enviado ou incorreto.
     - `404 Not Found`: Produto não encontrado.
-<details>
+</details>
 
 <details>
-  <summary> Deletar Produto </summary>
+  <summary><b>Deletar Produto</b></summary>
 
 - **DELETE** `/v1/product/:id`
   - **Headers**:
@@ -497,17 +497,20 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
     - `204 No Content`: Exclusão bem-sucedida, sem conteúdo de resposta.
     - `401 Unauthorized`: Token de autorização não enviado ou incorreto.
     - `404 Not Found`: Produto não encontrado.
-<details>
+</details>
+
 
 ## Gerar Token
 
 <details>
-  <summary> Deletar Produto </summary>
+  <summary><b>Gerar Token</b></summary>
 
 -**Endpoint:** `POST /v1/user/token`
+
 -**Headers:**
 - `Content-type: application/json`
 - `Authorization: Bearer <JWT>`
+
 **Payload:**
 ```json
 {
@@ -515,6 +518,7 @@ Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQ
   "password": "123@123"
 }
 ```
+
 **Response Body**:
 ```json
 Copiar código
@@ -522,7 +526,8 @@ Copiar código
   "token": "<JWT>"
 }
 ```
+
 - **Response Status Code**:
     - `200 OK`: Retornado quando a requisição foi bem-sucedida..
     - `400 Bad Request`: Retornado quando a os dados da requisição estiverem incorretos.
-<details>
+</details>
