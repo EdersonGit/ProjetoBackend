@@ -1,7 +1,3 @@
-# Geração Tech - Projeto Back-end
-
-Este é o projeto back-end desenvolvido como parte do curso **Desenvolvedor Web Fullstack** do projeto **Geração Tech** da **Digital College**.
-
 ## Tecnologias Utilizadas
 
 - Node.js
@@ -14,47 +10,6 @@ Este é o projeto back-end desenvolvido como parte do curso **Desenvolvedor Web 
 - bcrypt
 - Git
 - GitHub
-
-## Estrutura de Diretórios
-
-```plaintext
-├── src/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   ├── app.js
-│   └── server.js
-├── .env
-├── .gitignore
-├── package.json
-└── README.md
-```
-
-## Configuração do Ambiente
-
-1. Clone o repositório:
-
-    ```bash
-    git clone https://github.com/EdersonGit/ProjetoBackend.git
-    ```
-
-2. Navegue até o diretório do projeto:
-
-    ```bash
-    cd ProjetoBackend
-    ```
-
-3. Configuração do Banco de Dados:
-
-Este projeto utiliza o MySQL como banco de dados. Crie um banco de dados no MySQL e configure as credenciais no arquivo .env:
-
-    DB_HOST=localhost
-    DB_USER=seu_usuario
-    DB_PASSWORD=sua_senha
-    DB_NAME=nome_do_banco_de_dados
 
 ## Endpoints da API
 
